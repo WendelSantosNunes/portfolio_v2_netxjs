@@ -5,6 +5,7 @@ import { Presentation } from "./components/Presentation";
 import { Knowledge } from "./components/Knowledge";
 import { Experience } from "./components/Experience";
 import { Project } from "./components/Project";
+import { Certificates } from "./components/Certificates";
 // import { Footer } from "@/app/components/Footer";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Knowledge />
       <Experience />
       <Project />
+      <Certificates />
     </main>
   );
 }
