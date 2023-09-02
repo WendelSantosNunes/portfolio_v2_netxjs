@@ -12,7 +12,7 @@ export function Header() {
   const [menuIsVisible, setMenuIsVisible] = useState(false);
 
   return (
-    <header className="bg-color-primary h-20 flex justify-center px-4">
+    <header className="bg-color-primary h-20 flex justify-center px-4 sticky top-0 z-10">
       <div className="max-w-tela w-full h-full flex justify-between items-center ">
         <Image src={logo} alt="Logo do Site" className="h-16 w-14" />
 
