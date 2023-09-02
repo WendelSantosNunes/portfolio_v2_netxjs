@@ -51,6 +51,13 @@ export function MenuMobile({ menuIsVisible, setMenuIsVisible }: view) {
               <li>
                 <a href="#secao5" onClick={() => setMenuIsVisible(false)}>
                   <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary">
+                    Certificados
+                  </strong>
+                </a>
+              </li>
+              <li>
+                <a href="#secao6" onClick={() => setMenuIsVisible(false)}>
+                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary">
                     Contato
                   </strong>
                 </a>
