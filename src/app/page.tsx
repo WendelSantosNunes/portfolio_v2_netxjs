@@ -6,6 +6,8 @@ import { Knowledge } from "./components/Knowledge";
 import { Experience } from "./components/Experience";
 import { Project } from "./components/Project";
 import { Certificates } from "./components/Certificates";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 // import { Footer } from "@/app/components/Footer";
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <Experience />
       <Project />
       <Certificates />
+      <Contact />
+      <Footer />
     </main>
   );
 }
