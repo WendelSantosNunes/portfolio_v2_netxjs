@@ -3,6 +3,7 @@ import { Header } from "@/app/components/Header";
 import { About } from "./components/About";
 import { Presentation } from "./components/Presentation";
 import { Knowledge } from "./components/Knowledge";
+import { Experience } from "./components/Experience";
 // import { Footer } from "@/app/components/Footer";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Presentation />
       <About />
       <Knowledge />
+      <Experience />
     </main>
   );
 }
