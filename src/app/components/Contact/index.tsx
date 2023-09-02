@@ -14,14 +14,15 @@ export function Contact() {
 
   function sendEmail(e: React.MouseEvent<HTMLFormElement>) {
     e.preventDefault();
+
     if (name === "" || email === "" || message === "") {
       alert("Preencha todos os campos");
       return;
     }
 
-    const service_id = process.env.YOUR_SERVICE_ID as string;
-    const template_id = process.env.YOUR_TEMPLATE_ID as string;
-    const public_key = process.env.YOUR_PUBLIC_KEY as string;
+    const service_id = process.env.NEXT_PUBLIC_SERVICE_ID as string;
+    const template_id = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;
+    const public_key = process.env.NEXT_PUBLIC_PUBLIC_KEY as string;
 
     const templateParams = {
       from_name: name,
@@ -31,12 +32,16 @@ export function Contact() {
 
     emailjs.send(service_id, template_id, templateParams, public_key).then(
       (result) => {
-        console.log(result.text);
+        alert(result.text);
       },
       (error) => {
-        console.log(error.text);
+        alert(error.text);
       }
     );
+
+    setName("");
+    setEmail("");
+    setMessage("");
   }
 
   return (
