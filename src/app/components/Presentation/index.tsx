@@ -38,6 +38,7 @@ export function Presentation() {
       </div>
       <Image
         src={ImgProgrammng}
+        loading="lazy"
         alt="Desenho de um programador trabalhando"
         className="h-72 animate-presetation-home"
       />
