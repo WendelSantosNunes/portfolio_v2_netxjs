@@ -6,6 +6,7 @@ import emailjs from "@emailjs/browser";
 import { Input } from "../Input";
 import { Button } from "../Button";
 import { useState } from "react";
+import { Textarea } from "../Textarea";
 
 export function Contact() {
   const [name, setName] = useState("");
@@ -72,7 +73,7 @@ export function Contact() {
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <textarea
+        <Textarea
           name="Mensagem"
           id="mensagem"
           cols={30}
@@ -81,7 +82,7 @@ export function Contact() {
           placeholder="Mensagem"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-        ></textarea>
+        ></Textarea>
 
         <Button type="submit" className="m-2">
           Enviar
