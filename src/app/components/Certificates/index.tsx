@@ -26,7 +26,7 @@ export function Certificates() {
               >
                 <Image
                   src={item.img}
-                  alt="Laborátorio de Pesquisas Avançadas em Análises de Dados"
+                  alt={item.description}
                   className="max-w-[272px] h-48 m-auto rounded-lg"
                   key={index}
                 />
