@@ -7,34 +7,34 @@ import Image from "next/image";
 import imgPerfil from "../../assets/perfil.png";
 
 export function About() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const sectionRef = useRef(null);
 
-  useEffect(() => {
-    if (sectionRef.current) {
-      // Verifique se sectionRef.current não é nulo
-      const options = {
-        threshold: 0.5, // Quando pelo menos 50% da seção está visível
-      };
+  // useEffect(() => {
+  //   if (sectionRef.current) {
+  //     // Verifique se sectionRef.current não é nulo
+  //     const options = {
+  //       threshold: 0.5, // Quando pelo menos 50% da seção está visível
+  //     };
 
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-          } else {
-            setIsVisible(false);
-          }
-        });
-      }, options);
+  //     const observer = new IntersectionObserver((entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           setIsVisible(true);
+  //         } else {
+  //           setIsVisible(false);
+  //         }
+  //       });
+  //     }, options);
 
-      observer.observe(sectionRef.current);
+  //     observer.observe(sectionRef.current);
 
-      // Certifique-se de desconectar o observador quando o componente for desmontado
-      return () => {
-        observer.disconnect();
-      };
-    }
-  }, []);
+  //     // Certifique-se de desconectar o observador quando o componente for desmontado
+  //     return () => {
+  //       observer.disconnect();
+  //     };
+  //   }
+  // }, []);
 
   return (
     <div

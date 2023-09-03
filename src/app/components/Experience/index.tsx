@@ -14,23 +14,23 @@ export function Experience() {
     setTabIndex(newValue);
   }
 
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY >= 1300) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY >= 1300) {
+  //       setIsVisible(true);
+  //     } else {
+  //       setIsVisible(false);
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <section

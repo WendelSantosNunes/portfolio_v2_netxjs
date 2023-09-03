@@ -6,23 +6,23 @@ import Image from "next/image";
 import { cardKnowledge } from "../../data/knowledge";
 
 export function Knowledge() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY >= 900) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY >= 900) {
+  //       setIsVisible(true);
+  //     } else {
+  //       setIsVisible(false);
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <div
