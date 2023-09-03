@@ -1,21 +1,42 @@
 "use client";
 // Component
-import { useState } from "react";
 import { cardExperience } from "../../data/experience";
+import { useEffect, useState } from "react";
 
 export function Experience() {
   const [tabIndex, setTabIndex] = useState(0);
 
   function handleExperience(event: React.MouseEvent<HTMLButtonElement>) {
     event.preventDefault();
-    console.log(event.currentTarget.value);
+
     const newValue = parseInt(event.currentTarget.value);
+
     setTabIndex(newValue);
   }
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 1300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <section
-      className="mt-28 text-white px-4 max-w-tela w-full h-full m-auto"
+      className={`mt-28 text-white px-4 max-w-tela w-full h-full m-auto  opacity-0 transition-opacity duration-500 ease-in-out ${
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-100"
+      }`}
       id="secao3"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
@@ -29,7 +50,7 @@ export function Experience() {
               if (tabIndex !== index) {
                 return (
                   <button
-                    className="bg-color-primary h-12 flex justify-center items-center cursor-pointer border-l-4 border-color-primary w-full max-w-[242px]"
+                    className="bg-color-primary h-12 flex justify-center items-center cursor-pointer border-l-2 border-color-primary w-full max-w-[242px]"
                     onClick={handleExperience}
                     value={index}
                     key={index}
@@ -42,9 +63,9 @@ export function Experience() {
               } else {
                 return (
                   <button
-                    className="bg-color-primary h-12 flex justify-center items-center cursor-pointer border-l-4 border-color-tertiary w-full max-w-[242px]"
+                    className="bg-color-primary h-12 flex justify-center items-center cursor-pointer border-l-2 border-color-tertiary w-full max-w-[242px]"
                     onClick={handleExperience}
-                    value="1"
+                    value={index}
                     key={index}
                   >
                     <p>{item.empresa}</p>

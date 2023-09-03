@@ -2,14 +2,35 @@
 
 // Image
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 // Data
 import { project } from "../../data/project";
 
 export function Project() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 1100) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <section
-      className="mt-28 text-white px-4 max-w-tela w-full h-full m-auto"
+      className={`mt-28 text-white px-4 max-w-tela w-full h-full m-auto pacity-0 transition-opacity duration-500 ease-in-out ${
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-100"
+      }`}
       id="secao4"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
@@ -26,7 +47,7 @@ export function Project() {
                 <h3 className="text-lg pb-7">{item.titulo}</h3>
                 <Image
                   src={item.img}
-                  alt="Laborátorio de Pesquisas Avançadas em Análises de Dados"
+                  alt={item.description}
                   className="max-w-[272px] h-48 m-auto"
                 />
                 <p className="pb-7 text-[#9CA3AF] text-justify mt-3">
