@@ -48,7 +48,7 @@ export function Project() {
                 <Image
                   src={item.img}
                   alt={item.description}
-                  className="max-w-[272px] h-48 m-auto"
+                  className="w-full max-w-[272px] h-48 m-auto"
                 />
                 <p className="pb-7 text-[#9CA3AF] text-justify mt-3">
                   {item.text}

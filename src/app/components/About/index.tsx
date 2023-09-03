@@ -101,7 +101,11 @@ export function About() {
         </div>
         <div className="w-about-text flex flex-col items-center ml-3">
           <div className="relative w-min-content before:h-1 before:absolute before:bottom-[-28px] before:right-0 before:origin-left before:w-full before:left-0 before:bg-color-tertiary before:rounded-2xl mb-6">
-            <Image src={imgPerfil} alt="Minha foto" className="w-80" />
+            <Image
+              src={imgPerfil}
+              alt="Minha foto"
+              className="w-full max-w-80"
+            />
           </div>
 
           <div className="w-80 max-md:flex max-md:justify-center">
