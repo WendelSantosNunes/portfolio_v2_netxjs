@@ -78,7 +78,7 @@ export function Contact() {
           id="mensagem"
           cols={30}
           rows={10}
-          className="bg-color-primary border-2  w-full rounded-lg px-3 pt-4 peer focus:border-color-tertiary transition-all outline-none"
+          className="bg-color-primary border-2 w-full rounded-lg focus:border-color-tertiary px-3 pt-5 peer transition-all outline-none"
           placeholder="Mensagem"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
