@@ -25,8 +25,8 @@ export function Knowledge() {
   // }, []);
 
   return (
-    <div
-      className={`mt-28 text-white px-4 max-w-tela w-full h-full m-auto opacity-0 transition-opacity duration-500 ease-in-out ${
+    <section
+      className={`mt-36  text-white px-4 max-w-tela w-full h-full m-auto opacity-0 transition-opacity duration-500 ease-in-out ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-100"
       }`}
       id="secao2"
@@ -39,7 +39,7 @@ export function Knowledge() {
         {cardKnowledge.map((item) => {
           return (
             <div
-              className="bg-color-primary border border-red-500 w-40 h-40 flex flex-col justify-center items-center rounded-lg m-auto"
+              className="border-2 hover:border-color-tertiary w-40 h-40 flex flex-col justify-center items-center rounded-lg m-auto"
               key={item.id}
             >
               <h3 className="text-xl">{item.title}</h3>
@@ -48,6 +48,6 @@ export function Knowledge() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }

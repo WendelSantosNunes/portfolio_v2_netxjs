@@ -37,9 +37,9 @@ export function About() {
   // }, []);
 
   return (
-    <div
+    <section
       ref={sectionRef}
-      className={`mt-28 text-white px-4 max-w-tela w-full h-full m-auto sm:opacity-0 transition-opacity duration-500 ease-in-out ${
+      className={`mt-36  text-white px-4 max-w-tela w-full h-full m-auto sm:opacity-0 transition-opacity duration-500 ease-in-out ${
         isVisible ? "sm:opacity-100" : "sm:opacity-0"
       }`}
       id="secao1"
@@ -48,7 +48,7 @@ export function About() {
         Sobre <span className="text-color-tertiary">.</span>
       </h2>
       <div className="flex mt-20 justify-between max-md:flex-wrap-reverse max-md:justify-center">
-        <div className="w-about-text text-justify max-md:mt-4">
+        <div className="w-about-text text-justify max-md:mt-4 ">
           <p className="mb-5">
             Olá, meu nome é <strong>Wendel</strong>, sou um entusiasta da área
             de Sistemas de Informação e atualmente estou cursando o{" "}
@@ -150,6 +150,6 @@ export function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

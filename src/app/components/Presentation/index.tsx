@@ -7,7 +7,7 @@ import ImgProgrammng from "../../assets/undraw_programming_re_kg9v 1.svg";
 
 export function Presentation() {
   return (
-    <div className="flex justify-between items-center mt-24 px-4 max-md:justify-center max-md:flex-col-reverse max-w-tela w-full h-full m-auto">
+    <section className="flex justify-between items-center mt-36 px-4 max-md:justify-center max-md:flex-col-reverse max-w-tela w-full h-full m-auto">
       <div className="text-white max-md:mt-5">
         <h2 className="text-3xl mb-5 max-sm:text-2xl">Olá, eu sou o</h2>
         <h1 className="text-color-tertiary text-5xl max-sm:text-4xl">
@@ -42,6 +42,6 @@ export function Presentation() {
         alt="Desenho de um programador trabalhando"
         className="h-72 animate-presetation-home"
       />
-    </div>
+    </section>
   );
 }

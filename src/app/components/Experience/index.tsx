@@ -34,7 +34,7 @@ export function Experience() {
 
   return (
     <section
-      className={`mt-28 text-white px-4 max-w-tela w-full h-full m-auto  opacity-0 transition-opacity duration-500 ease-in-out ${
+      className={`mt-36  text-white px-4 max-w-tela w-full h-full m-auto  opacity-0 transition-opacity duration-500 ease-in-out ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-100"
       }`}
       id="secao3"

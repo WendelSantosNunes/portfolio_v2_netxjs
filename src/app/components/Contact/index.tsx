@@ -47,7 +47,7 @@ export function Contact() {
 
   return (
     <section
-      className="mt-28 text-white px-4 max-w-tela w-full h-full m-auto"
+      className="mt-36 text-white px-4 max-w-tela w-full h-full m-auto"
       id="secao6"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16 text-center">
