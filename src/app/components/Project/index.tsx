@@ -37,14 +37,14 @@ export function Project() {
         Projetos <span className="text-color-tertiary">.</span>
       </h2>
 
-      <div className="max-[1100px]:grid-cols-2 max-md:grid-cols-1">
+      <div>
         {project &&
           project.map((item, index) => {
             if (index % 2 === 0) {
               // max-lg:max-w-[500px]
               return (
                 <div
-                  className="w-full px-6 py-4 flex items-end gap-6 mt-28 max-md:flex-col"
+                  className="w-full px-6 py-4 flex items-end gap-6 mt-16 max-md:flex-col"
                   key={index}
                 >
                   <Image
@@ -59,7 +59,7 @@ export function Project() {
 
                     <a
                       href={item.projeto}
-                      className="text-white hover:text-color-tertiary border-2 hover:border-color-tertiary p-2 mb-10 rounded-lg"
+                      className="text-white hover:text-white hover:bg-color-tertiary border-2 hover:border-color-tertiary p-2 px-4 mb-10 rounded-lg font-bold"
                       target="_blank"
                     >
                       Visualizar o Projeto
@@ -70,7 +70,7 @@ export function Project() {
             } else {
               return (
                 <div
-                  className="w-full px-6 py-4 flex items-end gap-6 mt-28 max-md:flex-col-reverse"
+                  className="w-full px-6 py-4 flex items-end gap-6 mt-16 max-md:flex-col-reverse"
                   key={index}
                 >
                   <div className="mb-2 text-right max-md:text-left">
@@ -80,7 +80,7 @@ export function Project() {
 
                     <a
                       href={item.projeto}
-                      className="text-white hover:text-color-tertiary border-2 hover:border-color-tertiary p-2 mb-10 rounded-lg"
+                      className="text-white hover:text-white hover:bg-color-tertiary border-2 hover:border-color-tertiary p-2 px-4 mb-10 rounded-lg font-bold"
                       target="_blank"
                     >
                       Visualizar o Projeto

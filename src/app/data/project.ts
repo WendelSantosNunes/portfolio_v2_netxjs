@@ -4,11 +4,11 @@ import Coffe from "../assets/coffe.png";
 
 export const project = [
    {
-      titulo: "PAAD",
-      img: Paad,
-      description: "Site do Laborátorio de Pesquisas Avançadas em Análises de Dados da UFPI",
-      text: "O objetivo deste projeto é compartilhar informações sobre o laboratório PAAD da CSHNB/UFPI. Nesse projeto foram aplicados conhecimentos adquiridos na faculdade e em cursos, como Styled Components e React.",
-      projeto: "https://paad-ufpi-front.vercel.app/"
+      titulo: "Coffe",
+      img: Coffe,
+      description: "Site Coffe",
+      text: "Este foi um dos desafios do curso Ignite da Rocketseat. O desafio é criar um site que possibilite a revisão dos conteúdos aprendidos no segundo módulo, tais como React, TypeScript, Styled Components e localStorage.",
+      projeto: "https://ignite-react-desafio-2.vercel.app/"
    },
    {
       titulo: "To-Do List",
@@ -18,10 +18,11 @@ export const project = [
       projeto: "https://ignite-desafio-1.vercel.app/"
    },
    {
-      titulo: "Coffe",
-      img: Coffe,
-      description: "Site Coffe",
-      text: "Este foi um dos desafios do curso Ignite da Rocketseat. O desafio é criar um site que possibilite a revisão dos conteúdos aprendidos no segundo módulo, tais como React, TypeScript, Styled Components e localStorage.",
-      projeto: "https://ignite-react-desafio-2.vercel.app/"
+      titulo: "PAAD",
+      img: Paad,
+      description: "Site do Laborátorio de Pesquisas Avançadas em Análises de Dados da UFPI",
+      text: "O objetivo deste projeto é compartilhar informações sobre o laboratório PAAD da CSHNB/UFPI. Nesse projeto foram aplicados conhecimentos adquiridos na faculdade e em cursos, como Styled Components e React.",
+      projeto: "https://paad-ufpi-front.vercel.app/"
    },
+   
 ]

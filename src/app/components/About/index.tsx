@@ -93,7 +93,7 @@ export function About() {
               href="https://drive.google.com/file/d/16nw4SJHZfcjDifIBkIE-4WQPPtBa3sH2/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="border-2 border-white py-2 px-5 rounded-lg hover:bg-white hover:text-black"
+              className="text-white hover:text-white hover:bg-color-tertiary border-2 hover:border-color-tertiary p-2 px-4 mb-10 rounded-lg font-bold"
             >
               Download CV
             </a>
