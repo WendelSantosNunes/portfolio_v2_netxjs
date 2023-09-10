@@ -4,7 +4,7 @@ import { GithubLogo, LinkedinLogo, Envelope } from "@phosphor-icons/react";
 
 export function Footer() {
   return (
-    <footer className="bg-color-secudary h-24 mt-36 border-t-2 border-t-color-tertiary">
+    <footer className="bg-color-secudary h-24 mt-36 border-t-2 border-t-color-border-1">
       <div className="text-white px-4 max-w-tela w-full h-full m-auto flex items-center justify-between ">
         <p className="font-bold text-base">@ 2023 Wendel Santos</p>
         <div className="flex">

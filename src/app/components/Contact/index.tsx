@@ -51,7 +51,7 @@ export function Contact() {
       id="secao6"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16 text-center">
-        Contato <span className="text-color-tertiary">.</span>
+        Contato <span className="text-color-border-1">.</span>
       </h2>
 
       <form
@@ -78,7 +78,7 @@ export function Contact() {
           id="mensagem"
           cols={30}
           rows={10}
-          className="bg-color-primary border-2 w-full rounded-lg focus:border-color-tertiary px-3 pt-5 peer transition-all outline-none"
+          className="bg-color-primary border-2 w-full rounded-lg focus:border-color-border-1 px-3 pt-5 peer transition-all outline-none"
           placeholder="Mensagem"
           value={message}
           onChange={(e) => setMessage(e.target.value)}

@@ -32,14 +32,14 @@ export function Knowledge() {
       id="secao2"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
-        Conhecimentos <span className="text-color-tertiary">.</span>
+        Conhecimentos <span className="text-color-border-1">.</span>
       </h2>
       {/* <div className="flex justify-between flex-wrap gap-y-8"> */}
       <div className="grid grid-cols-6 grid-rows-2 gap-4 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 max-[365px]:grid-cols-1">
         {cardKnowledge.map((item) => {
           return (
             <div
-              className="border-2 hover:border-color-tertiary w-40 h-40 flex flex-col justify-center items-center rounded-lg m-auto"
+              className="border-2 hover:border-color-border-1 w-40 h-40 flex flex-col justify-center items-center rounded-lg m-auto"
               key={item.id}
             >
               <h3 className="text-xl">{item.title}</h3>

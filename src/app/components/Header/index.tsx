@@ -12,7 +12,7 @@ export function Header() {
   const [menuIsVisible, setMenuIsVisible] = useState(false);
 
   return (
-    <header className="bg-color-secudary border-b-2 border-b-color-tertiary h-20 flex justify-center px-4 sticky top-0 z-10">
+    <header className="bg-color-secudary border-b-2 border-color-border-1 h-20 flex justify-center px-4 sticky top-0 z-10">
       <div className="max-w-tela w-full h-full flex justify-between items-center ">
         <Image src={logo} alt="Logo do Site" className="h-16 w-14" />
 
@@ -25,7 +25,7 @@ export function Header() {
           <ul className="flex justify-between space-x-5">
             <li>
               <a href="#secao1">
-                <strong className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary">
+                <strong className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1">
                   Sobre
                 </strong>
               </a>
@@ -33,7 +33,7 @@ export function Header() {
             <li>
               <a
                 href="#secao2"
-                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary"
+                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1"
               >
                 <strong>Habilidades</strong>
               </a>
@@ -41,7 +41,7 @@ export function Header() {
             <li>
               <a
                 href="#secao3"
-                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary"
+                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1"
               >
                 <strong>Cursos</strong>
               </a>
@@ -49,7 +49,7 @@ export function Header() {
             <li>
               <a
                 href="#secao4"
-                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary"
+                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1"
               >
                 <strong>Projetos</strong>
               </a>
@@ -57,7 +57,7 @@ export function Header() {
             <li>
               <a
                 href="#secao5"
-                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary"
+                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1"
               >
                 <strong>Certificados</strong>
               </a>
@@ -65,7 +65,7 @@ export function Header() {
             <li>
               <a
                 href="#secao6"
-                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary"
+                className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1"
               >
                 <strong>Contato</strong>
               </a>

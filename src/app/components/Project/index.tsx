@@ -34,7 +34,7 @@ export function Project() {
       id="secao4"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
-        Projetos <span className="text-color-tertiary">.</span>
+        Projetos <span className="text-color-border-1">.</span>
       </h2>
 
       <div>
@@ -59,7 +59,7 @@ export function Project() {
 
                     <a
                       href={item.projeto}
-                      className="text-white hover:text-white hover:bg-color-tertiary border-2 hover:border-color-tertiary p-2 px-4 mb-10 rounded-lg font-bold"
+                      className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
                       target="_blank"
                     >
                       Visualizar o Projeto
@@ -80,7 +80,7 @@ export function Project() {
 
                     <a
                       href={item.projeto}
-                      className="text-white hover:text-white hover:bg-color-tertiary border-2 hover:border-color-tertiary p-2 px-4 mb-10 rounded-lg font-bold"
+                      className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
                       target="_blank"
                     >
                       Visualizar o Projeto

@@ -13,7 +13,7 @@ export function Certificates() {
       id="secao5"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
-        Certificados <span className="text-color-tertiary">.</span>
+        Certificados <span className="text-color-border-1">.</span>
       </h2>
       <div className="grid gap-4 grid-cols-3 max-[1100px]:grid-cols-2 max-md:grid-cols-1">
         {certificatesAll &&

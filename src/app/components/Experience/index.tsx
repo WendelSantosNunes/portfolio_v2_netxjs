@@ -40,7 +40,7 @@ export function Experience() {
       id="secao3"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
-        Experiência <span className="text-color-tertiary">.</span>
+        Experiência <span className="text-color-border-1">.</span>
       </h2>
 
       <div className="flex justify-between space-x-4 max-md:space-x-0 max-md:flex-col max-md:justify-center max-md:items-center">
@@ -63,7 +63,7 @@ export function Experience() {
               } else {
                 return (
                   <button
-                    className="bg-color-primary h-12 flex justify-center items-center cursor-pointer border-l-2 border-color-tertiary w-full max-w-[242px]"
+                    className="bg-color-primary h-12 flex justify-center items-center cursor-pointer border-l-2 border-color-border-1 w-full max-w-[242px]"
                     onClick={handleExperience}
                     value={index}
                     key={index}

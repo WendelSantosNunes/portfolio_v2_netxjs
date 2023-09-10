@@ -45,7 +45,7 @@ export function About() {
       id="secao1"
     >
       <h2 className="text-center text-4xl max-sm:text-3xl font-bold">
-        Sobre <span className="text-color-tertiary">.</span>
+        Sobre <span className="text-color-border-1">.</span>
       </h2>
       <div className="flex mt-20 justify-between max-md:flex-wrap-reverse max-md:justify-center">
         <div className="w-about-text text-justify max-md:mt-4 ">
@@ -93,14 +93,14 @@ export function About() {
               href="https://drive.google.com/file/d/16nw4SJHZfcjDifIBkIE-4WQPPtBa3sH2/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="text-white hover:text-white hover:bg-color-tertiary border-2 hover:border-color-tertiary p-2 px-4 mb-10 rounded-lg font-bold"
+              className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
             >
               Download CV
             </a>
           </div>
         </div>
         <div className="w-about-text flex flex-col items-center ml-3">
-          <div className="relative w-min-content before:h-1 before:absolute before:bottom-[-28px] before:right-0 before:origin-left before:w-full before:left-0 before:bg-color-tertiary before:rounded-2xl mb-6">
+          <div className="relative w-min-content before:h-1 before:absolute before:bottom-[-28px] before:right-0 before:origin-left before:w-full before:left-0 before:bg-color-border-1 before:rounded-2xl mb-6">
             <Image
               src={imgPerfil}
               alt="Minha foto"
