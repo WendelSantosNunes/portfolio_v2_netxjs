@@ -50,7 +50,7 @@ export function Experience() {
               if (tabIndex !== index) {
                 return (
                   <button
-                    className="bg-color-primary h-12 flex justify-center items-center cursor-pointer border-l-2 border-color-primary w-full max-w-[242px]"
+                    className=" h-12 flex justify-center items-center cursor-pointer border-2 text-color-border-1 border-color-border-1 hover:border-white hover:text-white w-full max-w-[242px] font-bold text-lg"
                     onClick={handleExperience}
                     value={index}
                     key={index}
@@ -63,7 +63,7 @@ export function Experience() {
               } else {
                 return (
                   <button
-                    className="bg-color-primary h-12 flex justify-center items-center cursor-pointer border-l-2 border-color-border-1 w-full max-w-[242px]"
+                    className="h-12 flex justify-center items-center cursor-pointer border-2 border-white text-white w-full max-w-[242px] font-bold text-lg"
                     onClick={handleExperience}
                     value={index}
                     key={index}
@@ -75,7 +75,7 @@ export function Experience() {
             })}
         </div>
 
-        <div className="w-full max-w-[833px] bg-color-primary px-2 rounded-lg">
+        <div className="w-full max-w-[833px] px-2 border-2 hover:border-color-border-1 rounded-lg">
           <div className="flex justify-between items-baseline w-full pt-2 max-sm:flex-col">
             <h2 className="text-2xl">{cardExperience[tabIndex].titulo}</h2>
             <p className="max-sm:text-sm">{cardExperience[tabIndex].ano}</p>
