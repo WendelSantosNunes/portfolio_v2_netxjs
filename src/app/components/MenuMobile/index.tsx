@@ -15,49 +15,49 @@ export function MenuMobile({ menuIsVisible, setMenuIsVisible }: view) {
             weight="fill"
             color="#fff"
             onClick={() => setMenuIsVisible(false)}
-            className="absolute top-6 right-4 origin-center rotate-180 transition-all duration-400 cursor-pointer hover:fill-color-tertiary"
+            className="absolute top-6 right-4 origin-center rotate-180 transition-all duration-400 cursor-pointer hover:fill-color-border-1"
           />
 
           <nav className="text-white w-full">
             <ul className="flex items-center justify-center flex-col scale-75 text-3xl gap-9">
               <li>
                 <a href="#secao1" onClick={() => setMenuIsVisible(false)}>
-                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary">
+                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1">
                     Sobre
                   </strong>
                 </a>
               </li>
               <li>
                 <a href="#secao2" onClick={() => setMenuIsVisible(false)}>
-                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary">
+                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1">
                     Conhecimentos
                   </strong>
                 </a>
               </li>
               <li>
                 <a href="#secao3" onClick={() => setMenuIsVisible(false)}>
-                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary">
+                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1">
                     Experiências
                   </strong>
                 </a>
               </li>
               <li>
                 <a href="#secao4" onClick={() => setMenuIsVisible(false)}>
-                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary">
+                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1">
                     Projetos
                   </strong>
                 </a>
               </li>
               <li>
                 <a href="#secao5" onClick={() => setMenuIsVisible(false)}>
-                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary">
+                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1">
                     Certificados
                   </strong>
                 </a>
               </li>
               <li>
                 <a href="#secao6" onClick={() => setMenuIsVisible(false)}>
-                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary hover:text-color-tertiary">
+                  <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1">
                     Contato
                   </strong>
                 </a>
@@ -70,7 +70,7 @@ export function MenuMobile({ menuIsVisible, setMenuIsVisible }: view) {
           size={32}
           weight="fill"
           color="#fff"
-          className="cursor-pointer hover:fill-color-tertiary"
+          className="cursor-pointer hover:fill-color-border-1"
           onClick={() => setMenuIsVisible(true)}
         />
       )}
