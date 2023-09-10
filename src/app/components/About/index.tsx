@@ -50,17 +50,14 @@ export function About() {
       <div className="flex mt-20 justify-between max-md:flex-wrap-reverse max-md:justify-center">
         <div className="w-about-text text-justify max-md:mt-4 ">
           <p className="mb-5">
-            Olá, meu nome é <strong>Wendel</strong>, sou um entusiasta da área
-            de Sistemas de Informação e atualmente estou cursando o{" "}
-            <strong>
-              8º período desse curso na Universidade Federal do Piauí
-            </strong>
-            .
+            Olá, meu nome é <strong>Wendel</strong>, faço o curso de Sistemas de
+            Informação na Universidade Federal do Piauí e atualmente estou no{" "}
+            <strong>último período desse curso</strong>.
           </p>
 
           <p className="mb-5">
             Ao longo da minha jornada acadêmica, venho desenvolvendo um forte
-            interesse na área da <strong>web</strong> e me dedico constantemente
+            interesse na área da <strong>Web</strong> e me dedico constantemente
             ao aprimoramento nesse campo, através de{" "}
             <strong>cursos, projetos pessoais e monitoria na área</strong>.
             Tenho grande afinidade com tecnologias como{" "}
