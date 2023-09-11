@@ -78,13 +78,16 @@ export function Contact() {
           id="mensagem"
           cols={30}
           rows={10}
-          className="bg-color-primary border-2 w-full rounded-lg focus:border-color-border-1 px-3 pt-5 peer transition-all outline-none"
+          className=" bg-transparent border-2 w-full rounded-lg focus:border-color-border-1 px-3 pt-5 peer transition-all outline-none"
           placeholder="Mensagem"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></Textarea>
 
-        <Button type="submit" className="m-2">
+        <Button
+          type="submit"
+          className={`m-2 ${name && email && message ? "" : "disabled"}`}
+        >
           Enviar
         </Button>
       </form>

@@ -14,8 +14,9 @@ export function Input({ placeholder, name, id, ...props }: InputProps) {
         name={name}
         {...props}
         id={inputId}
-        className="bg-color-primary border-2 focus:border-color-border-1 w-full rounded-lg px-3 h-[52px] text-white placeholder-shown:pt-0 pt-4 peer  transition-all outline-none"
+        className="bg-transparent border-2 focus:border-color-border-1 w-full rounded-lg px-3 h-[52px] text-white placeholder-shown:pt-0 pt-4 peer  transition-all outline-none"
         placeholder=" "
+        autoComplete="off"
       />
       {/* htmlFor e id-> São necessário para dar o focus no input*/}
       <label
