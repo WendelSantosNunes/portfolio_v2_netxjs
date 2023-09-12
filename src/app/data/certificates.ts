@@ -13,7 +13,7 @@ export const certificatesAll = [
    },
    {
       description: 'Certificado do curso Especializar da Rocketseat',
-      link: "",
+      link: "https://drive.google.com/file/d/18ph6dJcUHhEC0ZO06BzA8kMYDVkOVm--/view?usp=sharing",
       img: RocketseatEspecializar,
    },
    {
