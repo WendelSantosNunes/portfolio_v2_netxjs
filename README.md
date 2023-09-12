@@ -14,7 +14,7 @@
 
 ---
 
-## 💻 Sobre o projeto
+## :ringed_planet: Sobre o projeto
 
 O portfólio é um site que tem como objetivo mostrar um pouco sobre meus projetos e experiências durante a minha caminha no mundo da programação.
 
@@ -28,7 +28,7 @@ O portfólio é um site que tem como objetivo mostrar um pouco sobre meus projet
 
 ---
 
-## 💻 Layout
+## 🎨 Layout
 
 <p align="center">
   <img alt="Imagem do Portfólio" title="#Portfólio" src="./src/app/assets/Portfolio.png" />
