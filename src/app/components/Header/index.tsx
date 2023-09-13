@@ -13,7 +13,7 @@ export function Header() {
 
   return (
     <header className="bg-color-secudary border-b-2 border-color-border-1 h-20 flex justify-center px-4 sticky top-0 z-10">
-      <div className="max-w-tela w-full h-full flex justify-between items-center ">
+      <div className="max-w-tela w-full h-full flex justify-between items-center animate-animation_header">
         <Image src={logo} alt="Logo do Site" className="h-16 w-14" />
 
         <MenuMobile

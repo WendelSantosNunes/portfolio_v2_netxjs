@@ -23,7 +23,9 @@ const config: Config = {
          'tela': '70rem', 
       },
       animation:{
-         'presetation-home': '5s ease 2s infinite alternate none running icon_move_people'
+         'presetation-home': '5s ease 2s infinite alternate none running icon_move_people',
+         'animation_header': '1s 1s both animat',
+         'animation_presentation': '1.7s 1.7s both animat2'
       },
       keyframes: {
          icon_move_people:{
@@ -34,6 +36,22 @@ const config: Config = {
             '100%': {
                _webkit_transform: 'translate3d(30px, 60px, 0)',
                transform: 'translate3d(-30px, -50px, 0)'
+            }
+         },
+         animat: {
+            '0%':{
+               transform: 'translateX(-200%)'
+            },
+            '100%': {
+               transform: 'translateX(0%)'
+            }
+         },
+         animat2: {
+            '0%':{
+               opacity: '0'
+            },
+            '100%': {
+               opacity: '1'
             }
          }
       }

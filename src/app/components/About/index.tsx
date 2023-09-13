@@ -39,7 +39,7 @@ export function About() {
   return (
     <section
       ref={sectionRef}
-      className={`mt-36  text-white px-4 max-w-tela w-full h-full m-auto sm:opacity-0 transition-opacity duration-500 ease-in-out ${
+      className={`mt-36 animate-animation_presentation text-white px-4 max-w-tela w-full h-full m-auto sm:opacity-0 transition-opacity duration-500 ease-in-out ${
         isVisible ? "sm:opacity-100" : "sm:opacity-0"
       }`}
       id="secao1"
