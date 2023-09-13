@@ -10,32 +10,6 @@ export function About() {
   const [isVisible, setIsVisible] = useState(true);
   const sectionRef = useRef(null);
 
-  // useEffect(() => {
-  //   if (sectionRef.current) {
-  //     // Verifique se sectionRef.current não é nulo
-  //     const options = {
-  //       threshold: 0.5, // Quando pelo menos 50% da seção está visível
-  //     };
-
-  //     const observer = new IntersectionObserver((entries) => {
-  //       entries.forEach((entry) => {
-  //         if (entry.isIntersecting) {
-  //           setIsVisible(true);
-  //         } else {
-  //           setIsVisible(false);
-  //         }
-  //       });
-  //     }, options);
-
-  //     observer.observe(sectionRef.current);
-
-  //     // Certifique-se de desconectar o observador quando o componente for desmontado
-  //     return () => {
-  //       observer.disconnect();
-  //     };
-  //   }
-  // }, []);
-
   return (
     <section
       ref={sectionRef}
@@ -87,7 +61,7 @@ export function About() {
 
           <div className="curriculum text-center">
             <a
-              href="https://drive.google.com/file/d/16nw4SJHZfcjDifIBkIE-4WQPPtBa3sH2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Q7sex6JU8IQ0AzRiLft3cPYOCcRxW5c7/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
