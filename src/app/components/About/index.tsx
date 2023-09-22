@@ -36,10 +36,8 @@ export function About() {
             ao aprimoramento nesse campo, por meio de{" "}
             <strong>cursos, projetos pessoais e monitoria na área</strong>.
             Possuo afinidade com tecnologias como{" "}
-            <strong>
-              React, TypeScript, Next.js, Node.js, Java e Django para o
-              desenvolvimento de Aplicação.
-            </strong>
+            <strong>React, TypeScript, Next.js, Node.js, Java e Django</strong>
+            para o desenvolvimento de Aplicação.
           </p>
 
           <p className="mb-5">
