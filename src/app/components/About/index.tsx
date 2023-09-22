@@ -30,17 +30,16 @@ export function About() {
           </p>
 
           <p className="mb-5">
-            Ao longo da minha jornada acadêmica, venho desenvolvendo um forte
-            interesse na área da <strong>Web</strong> e me dedico constantemente
-            ao aprimoramento nesse campo, através de{" "}
+            Ao longo da minha jornada acadêmica, tenho desenvolvido um forte
+            interesse no desenvolvimento de aplicações, abrangendo desde o{" "}
+            <strong>Back-end até o Front-End</strong>. Dedico-me constantemente
+            ao aprimoramento nesse campo, por meio de{" "}
             <strong>cursos, projetos pessoais e monitoria na área</strong>.
-            Tenho grande afinidade com tecnologias como{" "}
+            Possuo afinidade com tecnologias como{" "}
             <strong>
-              React, Typescript, Next e outras ferramentas para desenvolvimento
-              web
+              React, TypeScript, Next.js, Node.js, Java e Django para o
+              desenvolvimento de Aplicação.
             </strong>
-            . Além disso, possuo conhecimento básico em{" "}
-            <strong>NodeJs e Django</strong> para desenvolvimento de back-end.
           </p>
 
           <p className="mb-5">
