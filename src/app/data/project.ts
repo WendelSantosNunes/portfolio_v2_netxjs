@@ -1,8 +1,16 @@
 import Paad from "../assets/PAAD.png";
 import TodoList from "../assets/TodoList.png";
+import TodoListJava from "../assets/TodoListJava.png";
 import Coffe from "../assets/coffe.png";
 
 export const project = [
+   {
+      titulo: "To-Do List -- Back-End Java",
+      img: TodoListJava,
+      description: "Back-End de uma to-do list feito em java",
+      text: "Este projeto é um back-end de uma aplicação de lista de tarefas (to-do list) que pode ser integrado por qualquer pessoa em seus projetos de front-end.",
+      projeto: "https://github.com/WendelSantosNunes/TodoList-back-end"
+   },
    {
       titulo: "Coffe",
       img: Coffe,

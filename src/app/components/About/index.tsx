@@ -58,7 +58,7 @@ export function About() {
 
           <div className="curriculum text-center">
             <a
-              href="https://drive.google.com/file/d/1nXHDHAFj9uNcJWptuIDICg5YJildxcsf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1iF_906BTxdbeghr84afWtSIkxcjAvpkr/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"

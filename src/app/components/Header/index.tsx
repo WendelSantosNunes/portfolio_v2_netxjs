@@ -49,7 +49,7 @@ export function Header() {
                 href="#secao3"
                 className="relative transition-all w-min-content before:w-0 before:h-0.5 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-700 hover:before:w-full hover:before:left-0 hover:before:bg-color-border-1 hover:text-color-border-1"
               >
-                <strong>Cursos</strong>
+                <strong>Experiência</strong>
               </a>
             </li>
             <li>

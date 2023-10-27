@@ -1,26 +1,25 @@
-"use client";
+import { Header } from "./components/Header";
 
-// React
-import Link from "next/link";
+import { project } from "../data/project";
 import Image from "next/image";
+import { Footer } from "../components/Footer";
 
-// Lista
-import { project } from "../../data/project";
-
-export function Project() {
+export default function Projects() {
   return (
-    <section
-      className={`mt-36  text-white px-4 max-w-tela w-full h-full m-auto pacity-0 transition-opacity duration-500 ease-in-out`}
-      id="secao4"
-    >
-      <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
-        Projetos <span className="text-color-border-1">.</span>
-      </h2>
+    <>
+      <Header />
 
-      <div>
-        {project &&
-          project.map((item, index) => {
-            if (index <= 2) {
+      <section
+        className={`mt-24 text-white px-4 max-w-tela w-full h-full m-auto pacity-0 transition-opacity duration-500 ease-in-out`}
+        id="secao4"
+      >
+        <h2 className="text-center text-4xl max-sm:text-3xl font-bold mb-16">
+          Projetos <span className="text-color-border-1">.</span>
+        </h2>
+
+        <div>
+          {project &&
+            project.map((item, index) => {
               if (index % 2 === 0) {
                 return (
                   <div
@@ -75,22 +74,11 @@ export function Project() {
                   </div>
                 );
               }
-            }
-          })}
-      </div>
+            })}
+        </div>
+      </section>
 
-      <div className="flex justify-center mt-5">
-        <Link
-          href="/projects"
-          className={`
-            text-white font-bold
-            border-2 p-2 px-4 rounded-lg
-            hover:text-white hover:bg-color-border-1 hover:border-color-border-1
-          `}
-        >
-          Link para projetos
-        </Link>
-      </div>
-    </section>
+      <Footer />
+    </>
   );
 }

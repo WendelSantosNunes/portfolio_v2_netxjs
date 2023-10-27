@@ -5,6 +5,7 @@ import ImgReact from "../assets/logo-react.svg"
 import ImgNode from "../assets/logo-nodejs.svg"
 import ImgSass from "../assets/logo-sass.svg"
 import ImgPython from "../assets/logo-python.svg"
+import ImgJava from "../assets/logo-java.svg"
 
 export const cardKnowledge = [
    {
@@ -56,5 +57,12 @@ export const cardKnowledge = [
       img: ImgPython,
       color: 'red'
    },
+   {
+      id: 8,
+      title: 'Java',
+      description: "Imagem do java",
+      img: ImgJava,
+      color: 'red',
+   }
 ]
  
