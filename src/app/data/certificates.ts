@@ -1,4 +1,4 @@
-import JStack from "../assets/JStack.png"
+import andamento from "../assets/Andamento.png"
 import RocketseatConectar from "../assets/Rocketseat-Conectar.png"
 import RocketseatEspecializar from "../assets/Rocketseat-Especializar.png"
 import RocketseatFundamentar from "../assets/Rocketseat-Fundamentar.png"
@@ -7,6 +7,12 @@ import OrigamidWeb from "../assets/Origamid-Web Design Completo.png"
 import aplicacaoJavaSpringBoot from "../assets/Aplicacao-java-spring-boot.png"
 
 export const certificatesAll = [
+
+   {
+      description: 'Curso em andamento: Java COMPLETO 2023 Programação Orientada a Objetos + Projetos',
+      link: "https://app.rocketseat.com.br/certificates/464df6ed-bae7-48b4-87c2-7e2d76b078ea",
+      img: andamento,
+    },
    {
      description: 'Certificado do curso Criação de uma Aplicação Java com Spring da Rocketseat',
      link: "https://app.rocketseat.com.br/certificates/464df6ed-bae7-48b4-87c2-7e2d76b078ea",
