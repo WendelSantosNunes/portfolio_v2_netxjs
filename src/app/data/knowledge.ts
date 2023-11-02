@@ -6,6 +6,9 @@ import ImgNode from "../assets/logo-nodejs.svg"
 import ImgSass from "../assets/logo-sass.svg"
 import ImgPython from "../assets/logo-python.svg"
 import ImgJava from "../assets/logo-java.svg"
+import ImgDocker from "../assets/Docker.png"
+import ImgMongo from "../assets/mongodb.png"
+import ImgPostgres from "../assets/postgres.png"
 
 export const cardKnowledge = [
    {
@@ -62,6 +65,27 @@ export const cardKnowledge = [
       title: 'Java',
       description: "Imagem do java",
       img: ImgJava,
+      color: 'red',
+   },
+   {
+      id: 9,
+      title: 'Docker',
+      description: "Imagem do Docker",
+      img: ImgDocker,
+      color: 'red',
+   },
+   {
+      id: 10,
+      title: 'MongoDB',
+      description: "Imagem do MongoDB",
+      img: ImgMongo,
+      color: 'red',
+   },
+   {
+      id: 11,
+      title: 'Postgres',
+      description: "Imagem do Postgres",
+      img: ImgPostgres,
       color: 'red',
    }
 ]
