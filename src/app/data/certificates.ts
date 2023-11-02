@@ -8,11 +8,11 @@ import aplicacaoJavaSpringBoot from "../assets/Aplicacao-java-spring-boot.png"
 
 export const certificatesAll = [
 
-   {
-      description: 'Curso em andamento: Java COMPLETO 2023 Programação Orientada a Objetos + Projetos',
-      link: "https://app.rocketseat.com.br/certificates/464df6ed-bae7-48b4-87c2-7e2d76b078ea",
-      img: andamento,
-    },
+   // {
+   //    description: 'Curso em andamento: Java COMPLETO 2023 Programação Orientada a Objetos + Projetos',
+   //    link: "#",
+   //    img: andamento,
+   //  },
    {
      description: 'Certificado do curso Criação de uma Aplicação Java com Spring da Rocketseat',
      link: "https://app.rocketseat.com.br/certificates/464df6ed-bae7-48b4-87c2-7e2d76b078ea",
