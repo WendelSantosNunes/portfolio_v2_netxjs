@@ -9,6 +9,7 @@ import ImgJava from "../assets/logo-java.svg"
 import ImgDocker from "../assets/Docker.png"
 import ImgMongo from "../assets/mongodb.png"
 import ImgPostgres from "../assets/postgres.png"
+import ImgSpring from "../assets/Spring.svg"
 
 export const cardKnowledge = [
    {
@@ -69,20 +70,27 @@ export const cardKnowledge = [
    },
    {
       id: 9,
+      title: 'Spring Boot',
+      description: "Imagem do framework Spring Boot",
+      img: ImgSpring,
+      color: 'red',
+   },
+   {
+      id: 10,
       title: 'Docker',
       description: "Imagem do Docker",
       img: ImgDocker,
       color: 'red',
    },
    {
-      id: 10,
+      id: 11,
       title: 'MongoDB',
       description: "Imagem do MongoDB",
       img: ImgMongo,
       color: 'red',
    },
    {
-      id: 11,
+      id: 12,
       title: 'Postgres',
       description: "Imagem do Postgres",
       img: ImgPostgres,
