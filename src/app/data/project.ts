@@ -2,8 +2,16 @@ import Paad from "../assets/PAAD.png";
 import TodoList from "../assets/TodoList.png";
 import TodoListJava from "../assets/TodoListJava.png";
 import Coffe from "../assets/coffe.png";
+import Auth from "../assets/Auth.png";
 
 export const project = [
+   {
+      titulo: "Autenticação de Usuário -- Back-end Java",
+      img: Auth,
+      description: "Autenticação de usuário",
+      text: "Este projeto é um back-end desenvolvido com o objetivo de implementar um sistema de autenticação utilizando JWT e Spring Security. Com isso, um usuário tem a capacidade de criar uma conta na API, fazer login, editar seus dados e, se for um administrador, excluir a conta. Para atingir esse objetivo, utilizamos o framework Spring Boot e a tecnologia JPA/Hibernate.",
+      projeto: "https://github.com/WendelSantosNunes/auth_usuario"
+   },
    {
       titulo: "To-Do List -- Back-End Java",
       img: TodoListJava,

@@ -24,9 +24,8 @@ export function About() {
       <div className="flex mt-20 justify-between max-md:flex-wrap-reverse max-md:justify-center">
         <div className="w-about-text text-justify max-md:mt-4 ">
           <p className="mb-5">
-            Olá, meu nome é <strong>Wendel</strong>, faço o curso de Sistemas de
-            Informação na Universidade Federal do Piauí e atualmente estou no{" "}
-            <strong>último período desse curso</strong>.
+            Olá, meu nome é <strong>Wendel</strong>, sou formado em Sistemas de
+            Informação pela <strong>Universidade Federal do Piauí</strong>.
           </p>
 
           <p className="mb-5">
@@ -36,7 +35,9 @@ export function About() {
             ao aprimoramento nesse campo, por meio de{" "}
             <strong>cursos, projetos pessoais e monitoria na área</strong>.
             Possuo afinidade com tecnologias como{" "}
-            <strong>React, TypeScript, Next.js, Node.js, Java e Django</strong>{" "}
+            <strong>
+              Java Spring, Java Security, React, Nest.js, Next.js e Node.js
+            </strong>{" "}
             para o desenvolvimento de Aplicação.
           </p>
 
@@ -61,7 +62,7 @@ export function About() {
               href="https://drive.google.com/file/d/1cogSonsac4IwC5Qh865F4suUIQUyRwzb/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
+              className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 text-lg rounded-lg font-bold"
             >
               Download CV
             </a>
