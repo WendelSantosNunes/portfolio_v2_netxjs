@@ -1,5 +1,10 @@
 "use client";
-import { GithubLogo, LinkedinLogo, Envelope } from "@phosphor-icons/react";
+import {
+  GithubLogo,
+  LinkedinLogo,
+  Envelope,
+  WhatsappLogo,
+} from "@phosphor-icons/react";
 import { useEffect, useRef, useState } from "react";
 
 //  Image
@@ -115,6 +120,21 @@ export function About() {
             >
               <Envelope size={32} weight="fill" className="mr-3" />
               <p className="max-md:hidden">wendelnunes9999@gmail.com</p>
+            </a>
+
+            <a
+              href="https://wa.me/5589994470129"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center mt-5"
+            >
+              <WhatsappLogo
+                size={32}
+                weight="fill"
+                className="mr-3"
+                color="#56EB6C"
+              />
+              <p className="max-md:hidden">Wendel</p>
             </a>
           </div>
         </div>
