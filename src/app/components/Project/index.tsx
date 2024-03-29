@@ -85,7 +85,7 @@ export function Project() {
           className={`
             dark:text-white font-bold
             border-2 p-2 px-4 rounded-lg
-            hover:text-white hover:bg-color-border-1 hover:border-color-border-1 dark:hover:border-color-border-1 border-black dark:border-white
+            hover:text-white hover:bg-color-border-1 hover:border-color-border-1 border-color-border-1 
           `}
         >
           Link para projetos
