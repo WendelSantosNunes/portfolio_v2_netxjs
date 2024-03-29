@@ -47,7 +47,7 @@ export function Contact() {
 
   return (
     <section
-      className="mt-36 text-white px-4 max-w-tela w-full h-full m-auto"
+      className="mt-36 dark:text-white px-4 max-w-tela w-full h-full m-auto"
       id="secao6"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16 text-center">
@@ -55,7 +55,7 @@ export function Contact() {
       </h2>
 
       <form
-        className="flex flex-col gap-4 max-w-[608px] m-auto"
+        className="flex flex-col gap-4 max-w-[608px] m-auto "
         onSubmit={sendEmail}
       >
         <Input
@@ -78,7 +78,7 @@ export function Contact() {
           id="mensagem"
           cols={30}
           rows={10}
-          className=" bg-transparent border-2 w-full rounded-lg focus:border-color-border-1 px-3 pt-5 peer transition-all outline-none"
+          className="bg-transparent border-2 w-full rounded-lg focus:border-color-border-1 px-3 pt-5 peer transition-all outline-none"
           placeholder="Mensagem"
           value={message}
           onChange={(e) => setMessage(e.target.value)}

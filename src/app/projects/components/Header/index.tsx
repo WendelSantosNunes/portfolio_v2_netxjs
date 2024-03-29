@@ -9,6 +9,8 @@ import Image from "next/image";
 import logo from "../../../assets/logo.svg";
 import { Envelope, GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 import Link from "next/link";
+import { ThemeSwitcher } from "@/app/components/ThemeButton";
+import { MenuMobile } from "@/app/components/MenuMobile";
 
 export function Header() {
   const [menuIsVisible, setMenuIsVisible] = useState(false);
@@ -25,6 +27,8 @@ export function Header() {
         <Link href="/">
           <Image src={logo} alt="Logo do Site" className="h-16 w-14" />
         </Link>
+
+        <ThemeSwitcher />
 
         {/* <MenuMobile
           menuIsVisible={menuIsVisible}

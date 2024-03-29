@@ -9,7 +9,7 @@ import { certificatesAll } from "../../data/certificates";
 export function Certificates() {
   return (
     <section
-      className="mt-36 text-white px-4 max-w-tela w-full h-full m-auto"
+      className="mt-36 dark:text-white px-4 max-w-tela w-full h-full m-auto"
       id="secao5"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">

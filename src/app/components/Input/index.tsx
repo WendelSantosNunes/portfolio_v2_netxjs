@@ -12,12 +12,12 @@ export function Input({ placeholder, name, id, ...props }: InputProps) {
         name={name}
         {...props}
         id={inputId}
-        className="bg-transparent border-2 focus:border-color-border-1 w-full rounded-lg px-3 h-[52px] text-white placeholder-shown:pt-0 pt-4 peer  transition-all outline-none"
+        className="bg-transparent border-2 focus:border-color-border-1 w-full border-black dark:border-white rounded-lg px-3 h-[52px] dark:text-white placeholder-shown:pt-0 pt-4 peer  transition-all outline-none"
         placeholder=" "
         autoComplete="off"
       />
       <label
-        className="absolute text-xs left-[13px] top-1.5 pointer-events-none text-white peer-placeholder-shown:text-base peer-placeholder-shown:top-3.5 transition-all"
+        className="absolute text-xs left-[13px] top-1.5 pointer-events-none dark:text-white peer-placeholder-shown:text-base peer-placeholder-shown:top-3.5 transition-all"
         htmlFor={name}
       >
         {placeholder}

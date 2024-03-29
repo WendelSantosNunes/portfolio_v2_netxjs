@@ -34,7 +34,7 @@ export function Experience() {
 
   return (
     <section
-      className={`mt-36  text-white px-4 max-w-tela w-full h-full m-auto  opacity-0 transition-opacity duration-500 ease-in-out ${
+      className={`mt-36 dark:text-white px-4 max-w-tela w-full h-full m-auto  opacity-0 transition-opacity duration-500 ease-in-out ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-100"
       }`}
       id="secao3"
@@ -63,7 +63,7 @@ export function Experience() {
               } else {
                 return (
                   <button
-                    className="h-12 flex justify-center items-center cursor-pointer border-2 border-white text-white w-full max-w-[242px] font-bold text-lg"
+                    className="h-12 flex justify-center items-center cursor-pointer border-2 border-black dark:border-white dark:text-white w-full max-w-[242px] font-bold text-lg"
                     onClick={handleExperience}
                     value={index}
                     key={index}
@@ -75,7 +75,7 @@ export function Experience() {
             })}
         </div>
 
-        <div className="w-full max-w-[833px] px-2 border-2 hover:border-color-border-1 rounded-lg">
+        <div className="w-full max-w-[833px] px-2 border-2 border-black dark:border-white hover:border-color-border-1 dark:hover:border-color-border-1 rounded-lg">
           <div className="flex justify-between items-baseline w-full pt-2 max-sm:flex-col">
             <h2 className="text-2xl">{cardExperience[tabIndex].titulo}</h2>
             <p className="max-sm:text-sm">{cardExperience[tabIndex].ano}</p>

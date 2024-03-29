@@ -1,6 +1,9 @@
 import "./global.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { ThemeProvider } from "./theme-provider";
+import { ThemeSwitcher } from "./components/ThemeButton/ThemeSwitcher";
+import { switchThemeDuration } from "./constants/switch-theme-duration";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className="bg-color-secudary h-full">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} bg-slate-50 dark:bg-[#0d1117] ${switchThemeDuration}`}
+      >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

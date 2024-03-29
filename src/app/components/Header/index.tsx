@@ -5,8 +5,7 @@ import { useState } from "react";
 import { MenuMobile } from "../MenuMobile";
 
 //  Image
-import Image from "next/image";
-import logo from "../../assets/logo.svg";
+import { ThemeSwitcher } from "../ThemeButton";
 
 export function Header() {
   const [menuIsVisible, setMenuIsVisible] = useState(false);
@@ -20,7 +19,7 @@ export function Header() {
             : ""
         } max-w-tela w-full h-full flex justify-between items-center animate-animation_header`}
       >
-        <Image src={logo} alt="Logo do Site" className="h-16 w-14" />
+        <ThemeSwitcher />
 
         <MenuMobile
           menuIsVisible={menuIsVisible}

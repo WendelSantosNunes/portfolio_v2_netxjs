@@ -18,7 +18,7 @@ export function About() {
   return (
     <section
       ref={sectionRef}
-      className={`mt-36 animate-animation_presentation text-white px-4 max-w-tela w-full h-full m-auto sm:opacity-0 transition-opacity duration-500 ease-in-out ${
+      className={`mt-36 animate-animation_presentation dark:text-white px-4 max-w-tela w-full h-full m-auto sm:opacity-0 transition-opacity duration-500 ease-in-out ${
         isVisible ? "sm:opacity-100" : "sm:opacity-0"
       }`}
       id="secao1"
@@ -67,7 +67,7 @@ export function About() {
               href="https://drive.google.com/file/d/1cogSonsac4IwC5Qh865F4suUIQUyRwzb/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 text-lg rounded-lg font-bold"
+              className="dark:text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 text-lg rounded-lg font-bold"
             >
               Download CV
             </a>

@@ -10,7 +10,7 @@ import { project } from "../../data/project";
 export function Project() {
   return (
     <section
-      className={`mt-36  text-white px-4 max-w-tela w-full h-full m-auto pacity-0 transition-opacity duration-500 ease-in-out`}
+      className={`mt-36 dark:text-white px-4 max-w-tela w-full h-full m-auto pacity-0 transition-opacity duration-500 ease-in-out`}
       id="secao4"
     >
       <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
@@ -35,11 +35,11 @@ export function Project() {
                     <div className="mb-2">
                       <h3 className="text-lg font-bold">{item.titulo}</h3>
 
-                      <p className="pb-7 text-white mt-3">{item.text}</p>
+                      <p className="pb-7 dark:text-white mt-3">{item.text}</p>
 
                       <a
                         href={item.projeto}
-                        className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
+                        className="dark:text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
                         target="_blank"
                       >
                         Visualizar o Projeto
@@ -56,11 +56,11 @@ export function Project() {
                     <div className="mb-2 text-right max-md:text-left">
                       <h3 className="text-lg font-bold">{item.titulo}</h3>
 
-                      <p className="pb-7 text-white mt-3">{item.text}</p>
+                      <p className="pb-7 dark:text-white mt-3">{item.text}</p>
 
                       <a
                         href={item.projeto}
-                        className="text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
+                        className="dark:text-white hover:text-white hover:bg-color-border-1 border-2 border-color-border-1 p-2 px-4 mb-10 rounded-lg font-bold"
                         target="_blank"
                       >
                         Visualizar o Projeto
@@ -83,9 +83,9 @@ export function Project() {
         <Link
           href="/projects"
           className={`
-            text-white font-bold
+            dark:text-white font-bold
             border-2 p-2 px-4 rounded-lg
-            hover:text-white hover:bg-color-border-1 hover:border-color-border-1
+            hover:text-white hover:bg-color-border-1 hover:border-color-border-1 dark:hover:border-color-border-1 border-black dark:border-white
           `}
         >
           Link para projetos

@@ -7,7 +7,7 @@ import { cardKnowledge } from "../../data/knowledge";
 export function Knowledge() {
   return (
     <section
-      className={`mt-36 text-white px-4 max-w-tela w-full h-full m-auto transition-opacity duration-500 ease-in-out"
+      className={`mt-36 dark:text-white px-4 max-w-tela w-full h-full m-auto transition-opacity duration-500 ease-in-out"
       }`}
       id="secao2"
     >
@@ -18,7 +18,7 @@ export function Knowledge() {
         {cardKnowledge.map(({ id, title, description, img }) => {
           return (
             <div
-              className="border-2 hover:border-color-border-1 w-40 h-40 flex flex-col justify-center items-center rounded-lg m-auto"
+              className="border-2 hover:border-color-border-1 border-black dark:border-white w-40 h-40 flex flex-col justify-center items-center rounded-lg m-auto"
               key={id}
             >
               <h3 className="text-xl">{title}</h3>
