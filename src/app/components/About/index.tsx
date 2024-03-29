@@ -9,7 +9,7 @@ import { useEffect, useRef, useState } from "react";
 
 //  Image
 import Image from "next/image";
-import imgPerfil from "../../assets/perfil.png";
+import imgPerfil from "../../assets/perfil.jpg";
 
 export function About() {
   const [isVisible, setIsVisible] = useState(true);
@@ -82,7 +82,7 @@ export function About() {
             />
           </div>
 
-          <div className="w-80 max-md:flex max-md:justify-center">
+          <div className="w-full max-md:flex max-md:justify-center">
             <a
               href="https://www.linkedin.com/in/wendel-nunes1/"
               target="_blank"
