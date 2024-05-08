@@ -13,6 +13,9 @@ import sqlComMysql from "../assets/Wendel dos Santos Nunes - Curso SQL com MySQL
 import javaRefatoracao from "../assets/Wendel dos Santos Nunes - Curso Java e refatoração_ melhorando códigos com boas práticas - Alura.png"
 import javaClean from "../assets/Wendel dos Santos Nunes - Curso Java e Clean Architecture_ descomplicando arquitetura de software - Alura.png"
 import java from "../assets/java.jpg"
+import javaJDBC from "../assets/javaJDBC.png"
+import javaJpa from "../assets/javaJDBC.png"
+import javaSpringBoot1 from "../assets/SpringBoot.png"
 
 export const certificatesAll = [
    // {
@@ -20,6 +23,21 @@ export const certificatesAll = [
    //    link: "#",
    //    img: andamento,
    // },
+   {
+      description: 'Spring Boot 3: desenvolva uma API Rest em Java',
+      link: "https://cursos.alura.com.br/user/wendelsn/course/spring-boot-3-desenvolva-api-rest-java/certificate",
+      img: javaSpringBoot1,
+   },
+   {
+      description: 'Persistência com JPA: Hibernate',
+      link: "https://cursos.alura.com.br/user/wendelsn/course/persistencia-jpa-introducao-hibernate/certificate",
+      img: javaJpa,
+   },
+   {
+      description: 'Java e JDBC: trabalhando com um banco de dados',
+      link: "https://cursos.alura.com.br/user/wendelsn/course/java-jdbc-banco-dados/certificate",
+      img: javaJDBC,
+   },
    {
       description: 'Java e refatoração: melhorando códigos com boas práticas',
       link: "https://cursos.alura.com.br/certificate/7a0d2103-e5ad-4d5d-a3a1-e12489f09eb9?lang=pt_BR",

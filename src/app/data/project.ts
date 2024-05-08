@@ -3,8 +3,16 @@ import TodoList from "../assets/TodoList.png";
 import TodoListJava from "../assets/TodoListJava.png";
 import Coffe from "../assets/coffe.png";
 import Auth from "../assets/Auth.png";
+import Blog from "../assets/Blog-api.png";
 
 export const project = [
+   {
+      titulo: "Blog-api",
+      img: Blog,
+      description: "Blog",
+      text: "Este é um projeto de back-end para uma API de blog. O objetivo é criar um CRUD com Spring Security, JWT, Spring Boot Start Mail e FlyWay, agregando assim mais complexidade do que um projeto simples.",
+      projeto: "https://github.com/WendelSantosNunes/Blog"
+   },
    {
       titulo: "Autenticação de Usuário -- Back-end Java",
       img: Auth,
